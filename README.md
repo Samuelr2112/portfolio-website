@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This repository will contain the source code for my personal portfolio website, built with **FastAPI**, **HTML/CSS/JS**, and **Bootstrap**.  
+This repository will contain the source code for my personal portfolio website, built with **FastAPI**, **HTML/CSS/JS**, **Bootstrap** and hosted by **AWS Lightsail**.  
 The site showcases my projects, technical skills, and professional experience in software engineering.
 
 ⚠️ **Note:**  
