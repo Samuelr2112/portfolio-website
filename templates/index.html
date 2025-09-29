@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Samuel Rincon | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Samuel Rincon - Software Engineer & Backend Developer. Computer Science graduate with hands-on experience in Python, Java, FastAPI, Spring Boot and modern web technologies.">
+  <meta name="keywords" content="Samuel Rincon, Software Engineer, Backend Developer, Python, Java, FastAPI, Spring Boot, Computer Science, Full Stack Developer, SQL, REST API">
+  <meta name="author" content="Samuel Rincon">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Samuel Rincon | Software Engineer & Backend Developer">
+  <meta property="og:description" content="Computer Science graduate specializing in backend development with Python, Java, and modern web technologies.">
+  <meta property="og:url" content="https://www.samuelrincon.online">
+  <meta property="og:image" content="/images/portfolio-preview.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Samuel Rincon | Software Engineer & Backend Developer">
+  <meta property="twitter:description" content="Computer Science graduate specializing in backend development with Python, Java, and modern web technologies.">
+  <meta property="twitter:image" content="/images/portfolio-preview.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/images/avatar.png">
+
+  <!-- External stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Poppins:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="/static/style.css?v=2">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <img src="/images/avatar.png" alt="Samuel Rincon Logo" style="height:40px;width:40px;border-radius:50%;margin-right:10px;">
+        <span class="brand-text">
+          <span class="brand-full">Samuel Rincon</span>
+          <span class="brand-short">SR</span>
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 data-aos="fade-up">Samuel Rincon</h1>
+      <div class="typing-wrapper">
+        <h3 data-aos="fade-up" data-aos-delay="200">
+          <span class="typing-text" id="typingText"></span>
+        </h3>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="600">
+        <a href="/resume/download" class="btn-hero">
+          <i class="fas fa-download me-2"></i>Download Resume
+        </a>
+        <a href="https://github.com/Samuelr2112" target="_blank" class="btn-hero">
+          <i class="fab fa-github me-2"></i>GitHub
+        </a>
+        <a href="https://linkedin.com/in/samuelrincon" target="_blank" class="btn-hero">
+          <i class="fab fa-linkedin me-2"></i>LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section-container" data-aos="fade-up">
+    <h2><i class="fas fa-code"></i> Technical Skills</h2>
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="skill-card">
+            <h5 class="text-gradient mb-3">Programming Languages</h5>
+            <div id="programming-skills">
+              <span class="badge-skill"><i class="devicon-python-plain"></i> Python</span>
+              <span class="badge-skill"><i class="devicon-java-plain"></i> Java</span>
+              <span class="badge-skill"><i class="devicon-javascript-plain"></i> JavaScript</span>
+              <span class="badge-skill"><i class="devicon-mysql-plain"></i> SQL</span>
+              <span class="badge-skill"><i class="devicon-html5-plain"></i> HTML</span>
+              <span class="badge-skill"><i class="devicon-css3-plain"></i> CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="skill-card">
+            <h5 class="text-gradient mb-3">Frameworks & Libraries</h5>
+            <div id="frameworks-skills">
+              <span class="badge-skill"><i class="fas fa-rocket"></i> FastAPI</span>
+              <span class="badge-skill"><i class="fas fa-leaf"></i> Spring Boot</span>
+              <span class="badge-skill"><i class="fas fa-flask"></i> Flask</span>
+              <span class="badge-skill"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+              <span class="badge-skill"><i class="fas fa-cogs"></i> REST API</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="skill-card">
+            <h5 class="text-gradient mb-3">Databases</h5>
+            <div id="databases-skills">
+              <span class="badge-skill"><i class="devicon-sqlite-plain"></i> SQLite</span>
+              <span class="badge-skill"><i class="devicon-mysql-plain"></i> MySQL</span>
+              <span class="badge-skill"><i class="devicon-postgresql-plain"></i> PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mt-4">
+        <div class="col-12 col-md-4">
+          <div class="skill-card">
+            <h5 class="text-gradient mb-3">Tools & Technologies</h5>
+            <div id="tools-skills">
+              <span class="badge-skill"><i class="devicon-git-plain"></i> Git</span>
+              <span class="badge-skill"><i class="devicon-docker-plain"></i> Docker</span>
+              <span class="badge-skill"><i class="devicon-docker-plain"></i> Docker Compose</span>
+              <span class="badge-skill"><i class="devicon-amazonwebservices-original"></i> AWS</span>
+              <span class="badge-skill"><i class="fab fa-github"></i> GitHub</span>
+              <span class="badge-skill"><i class="fas fa-terminal"></i> Linux</span>
+              <span class="badge-skill"><i class="fas fa-network-wired"></i> Nginx</span>
+              <span class="badge-skill"><i class="fas fa-brain"></i> AI Integration (MCP/Claude)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="skill-card">
+            <h5 class="text-gradient mb-3">Professional Skills</h5>
+            <div id="soft-skills">
+              <span class="badge-skill"><i class="fas fa-users"></i> Team Leadership</span>
+              <span class="badge-skill"><i class="fas fa-handshake"></i> Customer Service</span>
+              <span class="badge-skill"><i class="fas fa-clock"></i> Time Management</span>
+              <span class="badge-skill"><i class="fas fa-comments"></i> Communication</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section-container" data-aos="fade-up">
+    <h2><i class="fas fa-project-diagram"></i> Featured Projects</h2>
+    <div class="row" id="projects-container">
+      <!-- Projects will be loaded dynamically -->
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section-container" data-aos="fade-up">
+    <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
+    <div id="experience-container">
+      <!-- Experience will be loaded dynamically -->
+    </div>
+
+    <!-- Customer Reviews Carousel -->
+    <div class="carousel-fixed" data-aos="fade-up" data-aos-delay="130" id="reviews-section" style="display: none;">
+      <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner" id="reviews-container">
+          <!-- Reviews will be loaded dynamically -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- View More Reviews Button -->
+    <div class="text-center mt-3" id="view-more-reviews" style="display: none;">
+      <a href="https://bit.ly/4lNmkLl" target="_blank" class="btn-custom">
+        <i class="fas fa-star me-2"></i>View More Reviews
+      </a>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section-container" data-aos="fade-up">
+    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+    <div id="education-container">
+      <!-- Education will be loaded dynamically -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-container" data-aos="fade-up">
+    <h2><i class="fas fa-user"></i> About Me</h2>
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <p class="lead">
+          Junior software developer and recent Computer Science graduate from Southern New Hampshire University. 
+          I am building a foundation in backend development with Python, FastAPI, Java, and SQL, while gaining 
+          hands-on experience through personal and academic projects.
+        </p>
+        <p class="lead">
+          I am especially interested in learning how to integrate artificial intelligence into business applications,  
+          from automating processes to improving efficiency and providing smarter insights. My focus is on developing 
+          the skills needed to create systems that can grow with company data and support better decision-making.
+        </p>
+        <p class="lead">
+          Originally from Venezuela, I've learned resilience and adaptability in challenging environments, qualities 
+          that I bring into technical projects. I am eager to contribute, learn from experienced teams, and grow into 
+          a backend developer specialized in intelligent, data-driven solutions.
+        </p>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <strong>Languages:</strong> Spanish (Native), English (Fluent)<br>
+            <strong>Status:</strong> Open to new opportunities
+          </div>
+          <div class="col-md-6">
+            <strong>Interests:</strong> Backend Development, Software Engineering<br>
+            <strong>Origin:</strong> Maracaibo, Venezuela
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 text-center">
+        <div class="position-relative">
+          <div class="profile-image-container" style="display: inline-block; position: relative; margin: 20px 0;">
+            <img src="/images/profile-v2.png" alt="Samuel Rincon profile picture - Computer Science graduate and backend developer" 
+                style="width: 280px; height: 350px; object-fit: cover; border-radius: 20px; 
+                        box-shadow: 0 15px 35px rgba(0,0,0,0.2); 
+                        border: 4px solid #fff;
+                        transition: all 0.3s ease;
+                        cursor: pointer;"
+                onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 20px 45px rgba(0,0,0,0.3)';"
+                onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 15px 35px rgba(0,0,0,0.2)';"
+                onerror="this.parentElement.innerHTML='<i class=\'fas fa-user\' style=\'font-size: 8rem; color: var(--accent-color); opacity: 0.3;\'></i>'">
+            <div style="position: absolute; bottom: -10px; right: -10px; 
+                        background: var(--accent-color); color: white; 
+                        border-radius: 50%; width: 50px; height: 50px; 
+                        display: flex; align-items: center; justify-content: center;
+                        box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+              <i class="fas fa-code" style="font-size: 1.2rem;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-container" data-aos="fade-up">
+    <h2><i class="fas fa-envelope"></i> Get In Touch</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="contact-form">
+          <div id="form-notification" class="form-notification"></div>
+          <form id="contactForm" action="/api/contact" method="POST">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-custom">
+              <i class="fas fa-paper-plane me-2"></i>Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="contact-info">
+          <h5 class="text-gradient mb-4">Contact Information</h5>
+          <div class="mb-3"><i class="fas fa-envelope text-primary me-3"></i><span>samuelrinconm@yahoo.com</span></div>
+          <div class="mb-3"><i class="fas fa-phone text-primary me-3"></i><span>(786) 878-9292</span></div>
+          <div class="mb-3"><i class="fas fa-map-marker-alt text-primary me-3"></i><span>Conroe, Texas</span></div>
+          <div class="mb-3"><i class="fab fa-linkedin text-primary me-3"></i><a href="https://www.linkedin.com/in/samuelrincon" target="_blank">LinkedIn Profile</a></div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/samuelrincon" target="_blank" aria-label="Visit Samuel Rincon's LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Samuelr2112" target="_blank" aria-label="Visit Samuel Rincon's GitHub profile"><i class="fab fa-github"></i></a>
+            <a href="mailto:samuelrinconm@yahoo.com" aria-label="Send email to Samuel Rincon"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="social-links mb-3">
+        <a href="https://www.linkedin.com/in/samuelrincon" target="_blank" aria-label="Samuel Rincon LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Samuelr2112" target="_blank" aria-label="Samuel Rincon GitHub profile"><i class="fab fa-github"></i></a>
+        <a href="mailto:samuelrinconm@yahoo.com" aria-label="Email Samuel Rincon"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p>&copy; <span id="current-year">2025</span> Samuel Rincon. All rights reserved.</p>
+      <p>Built with FastAPI, Bootstrap, and modern web technologies</p>
+    </div>
+  </footer>
+
+  <!-- External Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Custom JavaScript -->
+  <script src="/static/main.js"></script>
+</body>
+</html>
